@@ -1,7 +1,7 @@
 const
     {src, dest, watch, parallel, series} = require('gulp'),
-    prefixer = require('gulp-autoprefixer'),
-    uglify = require('gulp-uglify'),
+    // prefixer = require('gulp-autoprefixer'),
+    // uglify = require('gulp-uglify'),
     fileinclude = require('gulp-file-include')
     ;
 
@@ -15,10 +15,10 @@ const PATH = {
     },
     src: { //Пути откуда брать исходники
         html: 'src/*.html', //Синтаксис src/*.html говорит gulp что мы хотим взять все файлы с расширением .html
-        js: 'main_page/front_src/js/*.js',
-        style: 'main_page/front_src/sass/*.scss',
-        img: 'main_page/front_src/img/**/*.*', //Синтаксис img/**/*.* означает - взять все файлы всех расширений из папки и из вложенных каталогов
-        fonts: 'main_page/front_src/fonts/**/*.*'
+        js: 'src/js/*.js',
+        style: 'src/styles/*.css',
+        img: 'src/img/**/*.*', //Синтаксис img/**/*.* означает - взять все файлы всех расширений из папки и из вложенных каталогов
+        fonts: 'src/fonts/**/*.*'
     },
     watch: { //Тут мы укажем, за изменением каких файлов мы хотим наблюдать
         // html: 'public/index.html',
