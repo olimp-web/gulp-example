@@ -1,0 +1,17 @@
+{
+  "name": "gulp-example",
+  "version": "1.0.0",
+  "description": "Example gulpfile.js for build simple static website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
